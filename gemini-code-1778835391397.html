@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Kurniawan | Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="flex justify-between items-center px-6 md:px-10 py-5 max-w-7xl mx-auto">
+            <div class="text-xl font-extrabold tracking-tighter">Kelvin<span class="text-purple-600">.</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-purple-600 transition">Home</a>
+                <a href="#skills" class="hover:text-purple-600 transition">Skills</a>
+                <a href="#projects" class="hover:text-purple-600 transition">Projects</a>
+            </div>
+            <div class="bg-black text-white p-2 rounded-full cursor-pointer hover:bg-purple-600 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="max-w-7xl mx-auto px-6 md:px-10 pt-32 pb-20 flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2 space-y-6">
+            <p class="text-lg font-medium text-gray-500">Halo, saya Kelvin 👋</p>
+            <h1 class="text-6xl md:text-8xl font-extrabold leading-[0.9] tracking-tighter">
+                <span class="text-purple-600">Frontend</span> <br> 
+                <span class="text-gray-900">Developer</span>
+            </h1>
+            <p class="text-gray-500 text-xl max-w-md leading-relaxed">
+                Saya fokus membangun antarmuka web yang bersih, responsif, dan memberikan pengalaman terbaik bagi pengguna.
+            </p>
+            <div class="flex space-x-4 pt-4">
+                <a href="mailto:email@anda.com" class="bg-[#1a1a1a] text-white px-8 py-4 rounded-xl font-semibold hover:bg-purple-600 transition shadow-lg inline-block">
+                    Hubungi Saya
+                </a>
+            </div>
+        </div>
+
+        <div class="md:w-1/2 flex justify-center mt-16 md:mt-0 relative">
+            <div class="w-72 h-72 md:w-[420px] md:h-[420px] border border-purple-100 rounded-full flex items-center justify-center">
+                <div class="w-64 h-64 md:w-[380px] md:h-[380px] bg-gray-100 rounded-full overflow-hidden grayscale hover:grayscale-0 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" alt="Kelvin Kurniawan" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-gray-50 py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 tracking-tight">Keahlian Utama</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-purple-300 transition">
+                    <div class="w-12 h-12 bg-purple-50 rounded-lg flex items-center justify-center mb-4 text-purple-600 font-bold text-xl">JS</div>
+                    <h3 class="font-bold">JavaScript</h3>
+                    <p class="text-sm text-gray-500">ES6+, React.js</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-purple-300 transition">
+                    <div class="w-12 h-12 bg-purple-50 rounded-lg flex items-center justify-center mb-4 text-purple-600 font-bold text-xl">TW</div>
+                    <h3 class="font-bold">Tailwind CSS</h3>
+                    <p class="text-sm text-gray-500">Rapid UI Styling</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-purple-300 transition">
+                    <div class="w-12 h-12 bg-purple-50 rounded-lg flex items-center justify-center mb-4 text-purple-600 font-bold text-xl">HT</div>
+                    <h3 class="font-bold">HTML & CSS</h3>
+                    <p class="text-sm text-gray-500">Semantic & Responsive</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-purple-300 transition">
+                    <div class="w-12 h-12 bg-purple-50 rounded-lg flex items-center justify-center mb-4 text-purple-600 font-bold text-xl">UI</div>
+                    <h3 class="font-bold">Figma</h3>
+                    <p class="text-sm text-gray-500">Prototyping & Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight">Projek Terbaru</h2>
+                <p class="text-gray-500 mt-2">Kumpulan hasil karya terbaik saya</p>
+            </div>
+            <a href="#" class="text-purple-600 font-semibold hover:underline">Lihat Semua</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-3xl bg-gray-100 mb-4 aspect-video">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="E-Commerce Design" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold">E-Commerce Dashboard</h3>
+                <p class="text-gray-500">Web App dengan React & Tailwind CSS</p>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-3xl bg-gray-100 mb-4 aspect-video">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800" alt="SaaS Landing Page" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold">Creative Agency Landing Page</h3>
+                <p class="text-gray-500">Optimasi SEO & High Performance UI</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-gray-100 py-10 text-center text-gray-400 text-sm">
+        <p>&copy; 2026 Kelvin Kurniawan. Dibuat dengan dedikasi.</p>
+    </footer>
+
+</body>
+</html>
